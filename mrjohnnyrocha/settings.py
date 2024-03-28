@@ -144,3 +144,15 @@ SIMPLE_JWT = {
     'REFRESH_TOKEN_LIFETIME': timedelta(days=1),  # Adjust refresh token expiration
 
 }
+
+import boto3
+
+AWS_ACCESS_KEY_ID = 'AKIA2UC3EKPAN2OWSGSI'  # Replace with your AWS credentials
+AWS_SECRET_ACCESS_KEY = 'yiHhjIkONaJ1PsIvB6AE4uBtxUbzDgwgkoUeL0w3'  # Replace with your AWS credentials
+AWS_STORAGE_BUCKET_NAME = 'mrjohnnyrocha-backend'  # Replace with your S3 bucket name
+AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age=86400'}  # Optional: Set cache headers
+
+STATIC_ROOT = 's3://%s' % AWS_STORAGE_BUCKET_NAME
+STATIC_URL = 'https://%s/' % AWS_S3_CUSTOM_DOMAIN  # Use HTTPS for secure delivery
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'

@@ -1,11 +1,11 @@
-certifi @ file:///private/tmp/python-certifi-20240202-5063-q0mlj8/certifi-2024.2.2
-cffi @ file:///private/tmp/cffi-20231212-42180-nb05ya/cffi-1.16.0
-click @ file:///private/tmp/python-click-20231113-5479-4iwbje/click-8.1.7
-cryptography @ file:///private/tmp/python-cryptography-20240224-5657-1e461b/cryptography-42.0.5
-pycparser @ file:///private/tmp/pycparser-20231211-26290-qd4lvz/pycparser-2.21
-pyparsing @ file:///private/tmp/python-pyparsing-20231212-64945-nd3w2a/pyparsing-3.1.1
-pytz @ file:///private/tmp/python-pytz-20231212-72217-850c13/pytz-2023.3.post1
-PyYAML @ file:///private/tmp/pyyaml-20231019-6030-1l8rk6l/PyYAML-6.0.1
-setuptools @ file:///private/tmp/python-setuptools-20240223-4738-b47ohr/setuptools-69.1.1
+certifi 
+cffi 
+click 
+cryptography 
+pycparser 
+pyparsing 
+pytz 
+PyYAML 
+setuptools 
 six==1.16.0
-wheel @ file:///usr/local/Cellar/python%403.12/3.12.2_1/libexec/wheel-0.42.0-py3-none-any.whl#sha256=5f1ca525bef7466225922019d72cb06a9e91cd3ff807ddd4be1acb84655e5107
+wheel 
